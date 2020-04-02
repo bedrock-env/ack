@@ -1,0 +1,14 @@
+{
+  "author": "Ben Mills",
+  "platforms": {
+    "macos": {
+      "files": [
+        {
+          "source": "ackrc",
+          "target": "$HOME/.ackrc",
+          "operation": "copy"
+        }
+      ]
+    }
+  }
+}

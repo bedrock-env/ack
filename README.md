@@ -1,7 +1,7 @@
 # ack
 
-ack is an extension for the [bedrock](https://github.com/bedrock-env/ack)
-project to provide ack settings in the bedrock environment.
+ack is an extension for the [Bedrock](https://github.com/bedrock-env/bedrock)
+project to provide ack settings in the Bedrock environment.
 
 ### Provides
 
@@ -13,15 +13,11 @@ project to provide ack settings in the bedrock environment.
 Clone this project to ``[BEDROCK_DIR]/extensions```. For example:
 
 ```sh
-cd ~/Development/bedrock/extensions
-git clone git@github.com:bedrock-env/ack.git
+git clone git@github.com:bedrock-env/ack.git ~/.bedrock/extensions/ack2
 ```
 
-```sh
-cd ~/Development/bedrock
-./scripts/bootstrap
-```
+Update the Bedrock bundle.
 
-### Supported Systems
+### Supported Platforms
 
-Any OS running ack.
+- macOS
