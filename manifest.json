@@ -9,6 +9,15 @@
           "operation": "copy"
         }
       ]
+    },
+    "ubuntu": {
+      "files": [
+        {
+          "source": "ackrc",
+          "target": "$HOME/.ackrc",
+          "operation": "copy"
+        }
+      ]
     }
   }
 }
