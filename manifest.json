@@ -7,6 +7,11 @@
           "source": "ackrc",
           "target": "$HOME/.ackrc",
           "operation": "copy"
+        },
+        {
+          "source": "vimbundles/ack",
+          "target": "$HOME/.vimbundles/ack",
+          "operation": "symlink"
         }
       ]
     },
