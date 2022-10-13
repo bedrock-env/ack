@@ -1,0 +1,16 @@
+author:
+  name: Ben Mills
+  email: ben@unfiniti.com
+platforms:
+  - macos
+setup:
+  macos:
+    steps:
+    - name: Configure files
+      files:
+      - source: ackrc
+        target: $HOME/.ackrc
+        operation: symlink
+      - source: vimbundles/ack
+        target: $HOME/.vimbundles/ack
+        operation: symlink
